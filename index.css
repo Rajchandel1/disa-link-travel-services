@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    /* Custom Colors */
+    --color-tripzia-blue: #0F4C75;
+    --color-tripzia-dark: #1B262C;
+    --color-tripzia-light: #BBE1FA;
+    --color-tripzia-accent: #3282B8;
+
+    /* Custom Fonts */
+    --font-family-serif: "Playfair Display", serif;
+    --font-family-sans: "Lato", sans-serif;
+}

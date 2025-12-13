@@ -1,71 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Disaa Link Travel Services</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="image/x-icon" href="https://static.wixstatic.com/media/dc3a75_35f7033c2a1947a8bca7b0ae2ce57809~mv2.png/v1/fill/w_196,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Group%20945%20(1).png">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Lato"', 'sans-serif'],
-            },
-            colors: {
-              tripzia: {
-                blue: '#0F4C75',
-                dark: '#1B262C',
-                light: '#BBE1FA',
-                accent: '#3282B8'
-              }
-            },
-            animation: {
-                'spin-slow': 'spin 8s linear infinite',
-            }
-          }
-        }
-      }
-    </script>
-    <style>
-      /* Custom scrollbar for better aesthetics */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #0F4C75;
-        border-radius: 4px;
-      }
-      .arch-image {
-        border-top-left-radius: 9999px;
-        border-top-right-radius: 9999px;
-      }
-    </style>
-  <script type="importmap">
-{
-  "imports": {
-    "lucide-react": "https://esm.sh/lucide-react@0.344.0",
-    "react": "https://esm.sh/react@18.3.1",
-    "react/": "https://esm.sh/react@18.3.1/",
-    "react-dom": "https://esm.sh/react-dom@18.3.1",
-    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
-    "framer-motion": "https://esm.sh/framer-motion@11.0.8"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disaa Link Travel Services</title>
+
+  <!-- Fonts are OK -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="icon" type="image/x-icon"
+    href="https://static.wixstatic.com/media/dc3a75_35f7033c2a1947a8bca7b0ae2ce57809~mv2.png" />
 </head>
-  <body class="font-sans antialiased text-slate-800 bg-white">
-    <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
+
+<body class="font-sans antialiased">
+  <div id="root"></div>
+
+  <!-- ONLY entry point -->
+<script type="module" src="/main.tsx"></script>
 </body>
+
 </html>

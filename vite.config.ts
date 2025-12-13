@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/disa-link-travel-services/', // 🔥 THIS IS THE KEY
+    base: mode === 'production' ? '/disa-link-travel-services/' : '/', // Only set base in production for dev
 
     server: {
       port: 3000,
@@ -23,10 +23,11 @@ export default defineConfig(({ mode }) => {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
 
-    resolve: {
-      alias: {
-        '@': path.resolve(__dirname, '.'),
-      },
-    },
+   resolve: {
+  alias: {
+    '@': path.resolve(__dirname, '.'),
+  },
+}
+
   };
 });
