@@ -142,7 +142,7 @@ const Hero: React.FC = () => {
                     <label className="text-[10px] md:text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">I am from</label>
                     <input 
                       type="text" 
-                      placeholder="e.g. Nepal" 
+                      placeholder="e.g. Ahmedabad" 
                       className="w-full bg-transparent border-none outline-none text-slate-900 placeholder:text-slate-300 font-medium text-sm md:text-base p-0 focus:ring-0"
                       value={origin}
                       onChange={(e) => setOrigin(e.target.value)}
