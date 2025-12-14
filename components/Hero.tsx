@@ -179,7 +179,7 @@ const Hero: React.FC = () => {
       </motion.div>
 
       {/* Elegant Scroll Indicator - Hide on short screens/mobile if needed to save space */}
-      <motion.div 
+      {/* <motion.div 
         style={{ opacity }}
         className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-3 pointer-events-none hidden md:flex"
       >
@@ -191,7 +191,7 @@ const Hero: React.FC = () => {
                 className="absolute w-full h-1/2 bg-gradient-to-b from-transparent via-white to-transparent top-0"
             ></motion.div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </header>
   );
 };
