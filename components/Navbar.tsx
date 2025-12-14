@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: '100%' }}
                 transition={{ type: "spring", bounce: 0, duration: 0.4 }}
-                className="fixed inset-0 bg-white z-40 flex flex-col justify-center items-center gap-8 text-xl font-serif text-slate-800"
+                className="fixed inset-0 bg-slate-400 z-40 flex flex-col justify-center items-center gap-8 text-xl font-serif text-slate-800"
             >
                 <a href="#" onClick={() => setIsOpen(false)}>Home</a>
                 <a href="#destinations" onClick={() => setIsOpen(false)}>Destinations</a>
