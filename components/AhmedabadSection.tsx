@@ -43,14 +43,19 @@ const AhmedabadSection: React.FC = () => {
                 </Reveal>
 
                 <Reveal delay={0.8}>
-                    <motion.button 
-                        whileHover={{ scale: 0.9, backgroundColor: "#c2410c" }}
-                        whileTap={{ scale: 0.95 }}
-                        className="flex items-center gap-3 bg-orange-600 text-white px-8 py-4 rounded-full font-bold shadow-xl shadow-orange-200 mt-4 group"
-                    >
-                        <Download size={20} />
-                        CHEKOUT ITINERARY
-                    </motion.button>
+                   <motion.button
+    whileHover={{ scale: 0.9, backgroundColor: "#c2410c" }}
+    whileTap={{ scale: 0.95 }}
+    className="flex items-center gap-3 bg-orange-600 text-white px-8 py-4 rounded-full font-bold shadow-xl shadow-orange-200 mt-4 group"
+    onClick={() => window.open(
+        "https://docs.google.com/document/d/1j0Y0NiJwb3WwgGl3Qp9-JpDMUhO5ftxDTYQxP4lT9iQ/edit?tab=t.0",
+        "_blank"
+    )}
+>
+    <Download size={20} />
+    CHECKOUT ITINERARY
+</motion.button>
+
                 </Reveal>
             </div>
 
