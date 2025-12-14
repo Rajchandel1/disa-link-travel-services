@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: mode === 'production' ? '/disa-link-travel-services/' : '/', // Only set base in production for dev
+    base: '/', // Set base to root for Vercel deployment
 
     server: {
       port: 3000,
