@@ -82,8 +82,8 @@ const ContactSection: React.FC = () => {
                                          <div className="p-2 bg-white/10 rounded-lg group-hover:bg-white/20 transition"><Phone size={20} className="shrink-0 text-white" /></div>
                                         <div className="space-y-1">
                                             <p className="font-bold text-white uppercase text-xs tracking-wider mb-1">Contact</p>
-                                            <p className="text-white">(O): +91 851-128-4458</p>
-                                            <p className="text-white">(M): +91 851-128-4458</p>
+                                            <p className="text-white">(O): +91 7595-907-877</p>
+                                            <p className="text-white">(M): +91 7595-907-877</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 group">

@@ -42,8 +42,8 @@ const Footer: React.FC = () => {
                         
                         <h4 className="bg-white/70 p-4 rounded-lg font-serif text-xl mb-4 flex items-center gap-2 text-black drop-shadow-md"><Phone size={16}/> Contact</h4>
                         <div className="text-black text-sm mb-6 leading-relaxed opacity-80 space-y-2 drop-shadow-md ">
-                            <p>(O): +91 851-128-4458</p>
-                            <p>(M): +91 851-128-4458</p>
+                            <p>(O): +91 7595-907-877</p>
+                            <p>(M): +91 7595-907-877</p>
                         </div>
                         
                     
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
                         <h4 className="bg-white/70 p-4 rounded-lg font-serif text-xl mb-4 text-black drop-shadow-md">Contact Us</h4>
                         
                         <div className="space-y-2 mb-6 text-black drop-shadow-md">
-                             <p className="flex items-center gap-2"><Phone size={16}/> +91 851-128-4458</p>
+                             <p className="flex items-center gap-2"><Phone size={16}/> +91 7595-907-877</p>
                              <p className="flex items-center gap-2"><Mail size={16}/> yateepassport@gmail.com</p>
                         </div>
 

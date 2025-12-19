@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
 
   const handleWhatsAppRedirect = () => {
     const message = `Hi, I am looking for visa assistance. Origin: ${origin || 'Not specified'}, Destination: ${destination || 'Not specified'}.`;
-    const phoneNumber = "8511284458";
+    const phoneNumber = "7595907877";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
