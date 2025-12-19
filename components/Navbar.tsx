@@ -23,10 +23,10 @@ const Navbar: React.FC = () => {
     <>
     <nav className={`fixed top-0 left-0 w-full z-50 px-4 md:px-12 flex justify-between items-center transition-all duration-300 ${bgClass}`}>
       <div className="flex items-center gap-3 z-50">
-       <img src="https://static.wixstatic.com/media/dc3a75_35f7033c2a1947a8bca7b0ae2ce57809~mv2.png/v1/fill/w_196,h_154,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Group%20945%20(1).png" className = "h-10" alt="" />
+       {/* <img src="https://content.jdmagicbox.com/comp/ahmedabad/a3/079pxx79.xx79.180528212633.k6a3/catalogue/gen-education-and-immigration-services-gujarat-university-navrangpura-ahmedabad-visa-assistance-h6919h3soe.jpg" className = "h-10" alt="" /> */}
         <div className="flex flex-col">
-            <span className={`font-serif text-xl font-bold tracking-tight transition-colors duration-300 leading-none ${textColorClass}`}>DISAA LINK</span>
-            <span className={`text-[0.6rem] font-bold tracking-widest uppercase ${scrolled ? 'text-slate-500' : 'text-white/70'}`}>Travel Services Pvt. Ltd. (OPC)</span>
+            <span className={`font-serif text-xl font-bold tracking-tight transition-colors duration-300 leading-none ${textColorClass}`}>Yatee Passport</span>
+            <span className={`text-[0.6rem] font-bold tracking-widest uppercase ${scrolled ? 'text-slate-500' : 'text-white/70'}`}>& Visa Services</span>
         </div>
       </div>
 

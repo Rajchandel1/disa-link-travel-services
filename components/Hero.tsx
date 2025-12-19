@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
 
   const handleWhatsAppRedirect = () => {
     const message = `Hi, I am looking for visa assistance. Origin: ${origin || 'Not specified'}, Destination: ${destination || 'Not specified'}.`;
-    const phoneNumber = "9824301676";
+    const phoneNumber = "8511284458";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
@@ -146,7 +146,7 @@ const Hero: React.FC = () => {
                       className="w-full bg-transparent border-none outline-none text-slate-900 placeholder:text-slate-300 font-medium text-sm md:text-base p-0 focus:ring-0"
                       value={origin}
                       onChange={(e) => setOrigin(e.target.value)}
-                    />
+                   required />
                 </div>
             </div>
 
@@ -160,11 +160,11 @@ const Hero: React.FC = () => {
                     <label className="text-[10px] md:text-xs text-slate-500 uppercase font-bold tracking-wider mb-1">Travelling to</label>
                     <input 
                       type="text" 
-                      placeholder="e.g. Dubai" 
+                      placeholder="e.g. USA" 
                       className="w-full bg-transparent border-none outline-none text-slate-900 placeholder:text-slate-300 font-medium text-sm md:text-base p-0 focus:ring-0"
                       value={destination}
                       onChange={(e) => setDestination(e.target.value)}
-                    />
+                   required />
                 </div>
             </div>
 

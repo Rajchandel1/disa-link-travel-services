@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const destinations = [
-    {
-        name: 'Dubai',
-        image: 'https://plus.unsplash.com/premium_photo-1694475631307-0f0a85924605?q=80&w=1690&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        flagCode: 'ae',
-    },
+   
     {
         name: 'USA',
         image: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?q=80&w=2998&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -26,7 +22,11 @@ const destinations = [
         name: 'UK',
         image: 'https://images.unsplash.com/photo-1488747279002-c8523379faaa?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         flagCode: 'gb',
-    }
+    }, {
+        name: 'Dubai',
+        image: 'https://images.unsplash.com/photo-1666526979045-3e786120d103?q=80&w=3043&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        flagCode: 'ae',
+    },
 ];
 
 const Destinations: React.FC = () => {

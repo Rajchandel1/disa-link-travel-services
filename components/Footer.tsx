@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                 <div className=" md:col-span-4">
                     <Reveal>
                         <h2 className="bg-white/70 p-4 rounded-lg font-serif text-3xl mb-6 leading-tight font-bold text-black drop-shadow-lg">
-                            DISAA LINK <br/><span className="text-xl font-normal text-black">TRAVEL SERVICES PVT. LTD. (OPC)</span>
+                            Yatee Passport <br/><span className="text-xl font-normal text-black">& Visa Services</span>
                         </h2>
                         <p className="text-black text-sm leading-relaxed max-w-sm drop-shadow-md">
                             Your trusted partner for all travel and immigration needs. We turn your dreams of traveling abroad into reality with expert guidance.
@@ -36,16 +36,14 @@ const Footer: React.FC = () => {
                         <h4 className="bg-white/70 p-4 rounded-lg font-serif text-xl mb-4 flex items-center gap-2 text-black drop-shadow-md"><MapPin size={16}/> Address</h4>
                         <div className="text-black text-sm mb-6 leading-relaxed opacity-80 space-y-4 drop-shadow-md">
                             <div>
-                                <p>204-205, Kalash Complex-2, Bh. Post office, <br/>
-                                Nr. Jain derasar Navrangpura, Ahmedabad, <br/>
-                                Gujarat 380009</p>
+                                <p>Dev Kuvar -7, Near Apollo International School, Tragad Road, Chandkheda, Ahmedabad-382424, Gujarat</p>
                             </div>
                         </div>
                         
                         <h4 className="bg-white/70 p-4 rounded-lg font-serif text-xl mb-4 flex items-center gap-2 text-black drop-shadow-md"><Phone size={16}/> Contact</h4>
                         <div className="text-black text-sm mb-6 leading-relaxed opacity-80 space-y-2 drop-shadow-md ">
-                            <p>(O): 079-40301551</p>
-                            <p>(M): 982-430-1676</p>
+                            <p>(O): +91 851-128-4458</p>
+                            <p>(M): +91 851-128-4458</p>
                         </div>
                         
                     
@@ -58,8 +56,8 @@ const Footer: React.FC = () => {
                         <h4 className="bg-white/70 p-4 rounded-lg font-serif text-xl mb-4 text-black drop-shadow-md">Contact Us</h4>
                         
                         <div className="space-y-2 mb-6 text-black drop-shadow-md">
-                             <p className="flex items-center gap-2"><Phone size={16}/> +91 982-430-1676</p>
-                             <p className="flex items-center gap-2"><Mail size={16}/> dltspvtltd@gmail.com</p>
+                             <p className="flex items-center gap-2"><Phone size={16}/> +91 851-128-4458</p>
+                             <p className="flex items-center gap-2"><Mail size={16}/> yateepassport@gmail.com</p>
                         </div>
 
                         {/* <h4 className="bg-white/70 p-4 rounded-lg font-serif text-xl mb-4 text-black drop-shadow-md">Newsletter</h4>
@@ -75,8 +73,8 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="text-center text-xs text-black drop-shadow-md flex flex-col md:flex-row justify-between items-center">
-                <span>Copyright © 2025 DISAA LINK TRAVEL SERVICES PVT. LTD. (OPC). All rights reserved.</span>
-                <span className="text-2xl mt-2 md:mt-0">Designed By Inoit</span>
+                <span>Copyright © 2025 Yatee Passport & Visa Services. All rights reserved.</span>
+                <span className="text-2xl mt-2 md:mt-0">Designed By <a className = "border-b-2" href = "https://www.inoit.site/">Inoit</a> </span>
             </div>
         </div>
     </footer>

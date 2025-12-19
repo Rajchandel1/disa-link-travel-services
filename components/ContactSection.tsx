@@ -39,16 +39,16 @@ const ContactSection: React.FC = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-black uppercase tracking-wide">First Name</label>
-                                    <input type="text" className="w-full bg-white/10 border border-white/20 text-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition" placeholder="John" />
+                                    <input type="text" className="w-full bg-white/10 border border-white/20 text-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition" placeholder="Raj" />
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-sm font-bold text-black uppercase tracking-wide">Last Name</label>
-                                    <input type="text" className="w-full bg-white/10 border border-white/20 text-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition" placeholder="Doe" />
+                                    <input type="text" className="w-full bg-white/10 border border-white/20 text-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition" placeholder="Chandel" />
                                 </div>
                             </div>
                             <div className="space-y-2">
                                 <label className="text-sm font-bold text-black uppercase tracking-wide">Email</label>
-                                <input type="email" className="w-full bg-white/10 border border-white/20 text-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition" placeholder="john@example.com" />
+                                <input type="email" className="w-full bg-white/10 border border-white/20 text-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-400 transition" placeholder="raj@example.com" />
                             </div>
                              <div className="space-y-2">
                                 <label className="text-sm font-bold text-black uppercase tracking-wide">Message</label>
@@ -75,22 +75,22 @@ const ContactSection: React.FC = () => {
                                         <div className="p-2 bg-white/10 rounded-lg group-hover:bg-white/20 transition"><MapPin size={20} className="shrink-0 text-white" /></div>
                                         <div className="space-y-1">
                                             <p className="font-bold text-white uppercase text-xs tracking-wider mb-1">Address</p>
-                                            <p className="leading-relaxed text-white">204-205, Kalash Complex-2,<br/>Bh. Post office, Nr. Jain derasar<br/>Navrangpura, Ahmedabad,<br/>Gujarat 380009</p>
+                                            <p className="leading-relaxed text-white">Dev Kuvar -7, Near Apollo International School, Tragad Road, Chandkheda, Ahmedabad-382424, Gujarat</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start gap-4 group">
                                          <div className="p-2 bg-white/10 rounded-lg group-hover:bg-white/20 transition"><Phone size={20} className="shrink-0 text-white" /></div>
                                         <div className="space-y-1">
                                             <p className="font-bold text-white uppercase text-xs tracking-wider mb-1">Contact</p>
-                                            <p className="text-white">(O): 079-40301551</p>
-                                            <p className="text-white">(M): 982-430-1676</p>
+                                            <p className="text-white">(O): +91 851-128-4458</p>
+                                            <p className="text-white">(M): +91 851-128-4458</p>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 group">
                                          <div className="p-2 bg-white/10 rounded-lg group-hover:bg-white/20 transition"><Mail size={20} className="shrink-0 text-white" /></div>
                                         <div>
                                             <p className="font-bold text-white uppercase text-xs tracking-wider mb-1">Email</p>
-                                            <p className="text-white">dltspvtltd@gmail.com</p>
+                                            <p className="text-white">yateepassport@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>

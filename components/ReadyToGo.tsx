@@ -44,7 +44,7 @@ const ReadyToGo: React.FC = () => {
                             Lets Talk 
                             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform"/>
                         </button>
-                        <p className="font-serif text-3xl md:text-4xl text-slate-900 font-light">+91 982-430-1676</p>
+                        <a href="tel:+9108511284458" className="font-serif text-3xl md:text-4xl text-slate-900 font-light hover:text-tripzia-blue transition">+91 851-128-4458</a>
                     </Reveal>
                 </div>
             </div>
