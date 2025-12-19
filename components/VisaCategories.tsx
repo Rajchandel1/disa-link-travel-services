@@ -12,7 +12,7 @@ const CategoryCircle: React.FC<{
     const handleInquire = () => {
         const phoneNumber = "7595907877"; // Remove hyphens for WhatsApp
         const message = `I'm interested in ${title} services. Please provide more information.`;
-        const whatsappUrl = `https://wa.me/919824301676?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/917595907877?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
     };
 
